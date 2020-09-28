@@ -1,0 +1,288 @@
+.controlPanel {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 45px;
+  color: #1a6bb4;
+  margin-top: 2rem;
+}
+.controlPanel1 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1a6bb4;
+}
+.login-ag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  position: relative;
+}
+.login-ag-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  position: relative;
+}
+.login-ag-enterEmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  position: relative;
+}
+.login-ag-enterEmail > div {
+  animation: zoomLog 0.7s 1 0s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-ag > div {
+  animation: zoomLog 0.7s 1 0s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-ag-default > div {
+  animation: zoomLog 0.7s 1 0s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-btn-ag-btn {
+  border: 3px solid #1a6bb4;
+  text-align: center;
+  width: 240px;
+  height: 65px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 3rem;
+  color: #1a6bb4;
+  font-weight: bold;
+  font-family: Montserrat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.get-srt-btn-btn:hover {
+  color: #fff !important;
+  background: #1a6bb4;
+}
+.get-srt-btn-btn {
+  text-align: center;
+  width: 240px;
+  height: 65px;
+  padding: 10px;
+  background: #1a6bb4;
+  border: 3px solid #1a6bb4;
+  box-sizing: border-box;
+  color: #fff !important;
+  font-size: 16px;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-family: Montserrat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.login-btn-ag {
+  border: 3px solid #1a6bb4;
+  text-align: center;
+  width: 300px;
+  height: 65px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin-top: 3rem;
+  color: #1a6bb4;
+  font-weight: bold;
+  font-family: Montserrat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.get-srt-btn {
+  text-align: center;
+  width: 300px;
+  height: 65px;
+  padding: 10px;
+  background: #1a6bb4;
+  border: 3px solid #1a6bb4;
+  box-sizing: border-box;
+  color: #fff !important;
+  font-size: 20px;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-family: Montserrat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.get-srt-btn:hover {
+  color: #fff !important;
+}
+.get-srt-btn:focus {
+  background: #1a6bb4 !important;
+}
+.pow-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+}
+.pow-by h5 {
+  margin-bottom: 0;
+  margin-right: 6px;
+}
+.login-in-mail {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #1a6bb4;
+  padding: 0px 0px 15px 0px;
+  font-size: 1.6rem;
+  color: #1a6bb4;
+  font-family: Montserrat;
+}
+@media only screen and (min-width: 1200px) {
+  .login-in-mail {
+    width: 25rem;
+    border: none;
+    border-bottom: 1px solid #1a6bb4;
+    padding: 0px 0px 15px 0px;
+    font-size: 1.6rem;
+    color: #1a6bb4;
+  }
+}
+.login-in-mail::placeholder {
+  font-size: 1.3rem;
+  color: #1a6bb4 !important;
+  opacity: 0.5;
+}
+.login-in-pass {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #1a6bb4;
+  padding: 0px 0 16px 0;
+  font-size: 1.6rem;
+  color: #1a6bb4;
+}
+.login-in-pass::placeholder {
+  font-size: 1.6rem;
+  color: #1a6bb4 !important;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25) !important;
+}
+.login-in-login {
+  color: #1a6bb4;
+}
+.login-in-login:hover {
+  color: #1a6bb4;
+}
+@keyframes zoomLog {
+  0% {
+    opacity: 0.6;
+    transform: scale(1.4);
+    transition: transform 2000ms, opacity 2000s;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 2000ms, opacity 2000ms;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+.verifying {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  /* min-width: 100vw; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.verifying h3 {
+  color: #1a6bb4;
+}
+.myProgressfull {
+  border-radius: 10px;
+  width: 350px;
+  background-color: #ddd;
+}
+.myBarfull {
+  border-radius: 10px;
+  width: 95%;
+  height: 15px;
+  background-color: #1a6bb4;
+  /* background-image: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent); */
+  /* -webkit-animation: progress-bar-stripes 0.2s linear infinite; */
+  animation-name: progress-bar-stripes, lod;
+  animation-duration: 0.2s, 2s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: infinite, 1;
+  animation-fill-mode: unset, forwards;
+  background-size: 15px 15px;
+  transition: width 0.6s ease;
+}
+@keyframes lod {
+  0% {
+    width: 10%;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.menus {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #1a6bb4;
+  cursor: pointer;
+}
+.form-group input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  font-family: Montserrat;
+  color: #1a6bb4;
+}
+.form-group input:-webkit-autofill {
+  -webkit-text-fill-color: #1a6bb4 !important;
+}

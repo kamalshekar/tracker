@@ -1,0 +1,273 @@
+.MuiPaper-root {
+  margin-top: 0 !important;
+}
+.side-list-mf {
+  border-top: 1px solid #f2f2f2;
+  height: 70px;
+}
+.wr-are-u-from {
+  text-align: center;
+  margin: 1rem 0 0rem 0;
+}
+.country-f-n {
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.country-f-n > img {
+  width: 2rem;
+}
+@media only screen and (max-width: 767px) {
+  .fullList {
+    min-height: 100vh;
+  }
+  .country-f-n > img {
+    width: 6rem;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .wr-are-u-from {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .wr-are-u-from {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+.currencyWidth .MuiDrawer-paperAnchorRight {
+  left: auto;
+  right: 0;
+  width: 7%;
+}
+/* -------------------------------------Myaccount file css-------------------------  */
+.bg-light {
+  background-color: #fff !important;
+  height: 5rem;
+}
+
+.accountBtn {
+  background-color: #1a6bb4;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 0;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountBtn:hover {
+  color: #fff;
+}
+.search {
+  position: absolute;
+  width: 100%;
+  top: 16px;
+}
+/* .accTabs .ant-tabs-nav .ant-tabs-tab-active {
+  color: #fff !important;
+  background: #1A6BB4 !important;
+  font-weight: 700;
+} */
+.MuiMenu-paper {
+  top: 5rem !important;
+}
+.myaccountresp {
+  display: contents;
+  justify-content: end;
+}
+.MuiList-padding {
+  padding-bottom: 0 !important;
+}
+.MuiPopover-paper {
+  border-radius: 0 !important;
+}
+
+.myacc:focus {
+  outline: none !important;
+  background-color: #fff !important;
+}
+
+.myacc:hover {
+  background-color: #fff !important;
+}
+.myacc:visited {
+  background-color: #fff !important;
+}
+.myacc:focus {
+  background-color: #fff !important;
+}
+.myacc:active {
+  background-color: #fff !important;
+}
+.myacc:focus {
+  background-color: #fff !important;
+}
+.MuiPaper-elevation8 {
+  border: 1px solid #d4dff7 !important;
+  box-shadow: none !important;
+}
+.flagCenter {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.MuiTouchRipple-root {
+  display: none;
+}
+
+.MuiCardActionArea-focusHighlight {
+  display: none;
+}
+
+/* left menu */
+.makeStyles-toolbar-9 {
+  min-height: 5rem !important;
+}
+.fitNavcontent {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarMain .MuiDrawer-paper {
+  background-color: #1a6bb4 !important;
+}
+.navbarMain .MuiIconButton-root {
+  padding: 0 !important;
+}
+.navbarMain .MuiIconButton-label {
+  background-color: #1a6bb4;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 29px;
+  padding-bottom: 27px;
+  width: 85px;
+  justify-content: flex-end;
+}
+.navbarMain .MuiIconButton-label:focus,
+.navbarMain .MuiIconButton-root:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+@media only screen and (min-height: 845px) {
+  .userBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+.removeFocus *:focus {
+  outline: none !important;
+  background-color: #1a6bb4 !important;
+}
+.navbarMain .MuiAppBar-colorPrimary {
+  background-color: #fff !important;
+}
+.myAccountMaster .MuiButton-label {
+  height: 68px;
+}
+
+.myAccountMaster .MuiPopover-paper {
+  max-width: unset !important;
+}
+.myaccountWidth {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.openaccount {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 1px solid #dfe6e9;
+}
+.accountprofile {
+  width: 3rem;
+  height: 3rem;
+}
+.myAccountMaster {
+  border-right: 1px solid #dfe6e9;
+  border-left: 1px solid #dfe6e9;
+}
+.navbarMain .MuiPaper-elevation4 {
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.25) !important;
+}
+.search .ant-input:focus {
+  border-color: #dfe6e9 !important;
+  border-right-width: 1px !important;
+  outline: 0;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+}
+.search .ant-input:hover {
+  border-color: #dfe6e9 !important;
+  border-right-width: 1px !important;
+}
+
+.dividerHead {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.navbarMain .MuiPaper-root::-webkit-scrollbar {
+  display: none !important;
+}
+.dividerStyle {
+  border: none;
+  height: 2px !important;
+  margin: 0;
+  flex-shrink: 0;
+  background-color: #fff !important;
+}
+.listStyle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #a3c3e1;
+  cursor: pointer;
+}
+.addStyle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.navHeight {
+  height: calc(100vh - 164px);
+  overflow: hidden auto;
+}
+.navHeight::-webkit-scrollbar {
+  display: none;
+}
+.insideHeight::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-height: 767px) {
+  .insideHeight {
+    height: 16vh;
+    overflow: hidden auto;
+  }
+}
+@media only screen and (min-height: 768px) {
+  .insideHeight {
+    height: 20vh;
+    overflow: hidden auto;
+  }
+}

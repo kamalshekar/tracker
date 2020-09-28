@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: "Montserrat", sans-serif !important;
+}
+code1 {
+    font-family: "Montserrat", sans-serif !important;
+}
+@media only screen and (max-width: 767px) {
+  .other-device {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mobile-device {
+    display: none;
+  }
+}
+.navbar-top-pad {
+  margin-top: 8rem !important;
+}
+a:hover {
+  color: #1a6bb4 !important;
+}
+a {
+  color: #1a6bb4;
+}
+.dropdown-menu.show {
+  z-index: 9999;
+}
+/* NO scroll bar  */
+.noScroll::-webkit-scrollbar {
+  display: none;
+}
+.noScroll {
+  height: 100vh;
+  overflow: auto;
+}

@@ -1,0 +1,260 @@
+.calcHead {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #1a6bb4;
+}
+.calcMain {
+  padding-left: 90px;
+  padding-right: 90px;
+  /* padding-bottom: 90px; */
+}
+.assetCardHead {
+  font-size: 20px;
+  color: #1a6bb4;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+.cardSub {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #1a6bb4;
+}
+.cardSubLiq {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #212121;
+}
+.balBtnStyle {
+  background-color: #212121;
+  color: #fff;
+  border: 1px solid #212121;
+}
+.balbtnmaster .ant-btn-primary:hover {
+  color: #212121;
+  background-color: #fff;
+  border-color: #212121;
+}
+.balbtnmaster .ant-btn-primary:focus {
+  color: #212121;
+  background-color: #fff;
+  border-color: #212121;
+}
+.calcSingleCard {
+  display: flex;
+  justify-content: space-between;
+}
+.alingEnd {
+  display: flex;
+  align-items: flex-end;
+}
+.cardHeight {
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  overflow: hidden auto;
+}
+@media only screen and (min-height: 658px) {
+  .pageBorder {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    overflow: auto;
+    height: 65vh;
+  }
+  .pageBorderLiq {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    overflow: auto;
+    height: 70vh;
+  }
+}
+@media only screen and (max-height: 657px) {
+  .pageBorder {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    overflow: auto;
+    height: 57vh;
+  }
+  .pageBorderLiq {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    overflow: auto;
+    height: 57vh;
+  }
+}
+.pageBorder::-webkit-scrollbar {
+  display: none;
+}
+.balTag {
+  width: 100%;
+  text-align: end;
+}
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dpdown .app-add-drp-btn {
+  width: 100%;
+  font-weight: 700;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  height: 32px;
+  padding: 0 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.dpdown .btn-primary:hover {
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+}
+.dpdown .btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+}
+.dpdown .dropdown-menu.show {
+  font-weight: 700;
+  position: absolute;
+  will-change: transform;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  transform: translate3d(0px, 29px, 0px) !important;
+  font-size: 14px !important;
+}
+.dpdown .btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0 rgba(38, 143, 255, 0.5);
+}
+.ant-input-affix-wrapper .ant-input:not(:first-child) {
+  padding-left: 45px;
+}
+/* liquiqity report  */
+.liquidityCenter {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.liquidityHeight {
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  height: 86%;
+  overflow: hidden auto;
+}
+.balStyle {
+  color: #3b4859;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+.totalBal {
+  color: #3b4859;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+  width: 100%;
+}
+.balBox {
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0rem rgba(38, 143, 255, 0.5) !important;
+}
+.seldpdown .btn-primary:not(:disabled):not(.disabled).active {
+  border: 2px solid #1a6bb4;
+  color: #1a6bb4;
+  border-radius: 0px;
+  width: 10rem;
+  font-size: 20px;
+  padding: 3px;
+}
+.seldpdown .show > .btn-primary.dropdown-toggle {
+  border: 2px solid #1a6bb4;
+  color: #1a6bb4;
+  border-radius: 0px;
+  width: 10rem;
+  font-size: 20px;
+  padding: 3px;
+}
+.seldpdown .btn-primary:not(:disabled):not(.disabled):active {
+  border: 2px solid #1a6bb4;
+  color: #1a6bb4;
+  border-radius: 0px;
+  width: 10rem;
+  font-size: 20px;
+  padding: 3px;
+}
+.seldpdown .app-add-drp-btn {
+  border: 2px solid #1a6bb4;
+  color: #1a6bb4;
+  border-radius: 0px;
+  width: 10rem;
+  font-size: 20px;
+  background-color: #fff;
+  padding: 3px;
+}
+.seldpdown .app-add-drp-btn:hover {
+  background-color: #fff !important;
+}
+.horizontalScroll {
+  width: 100%;
+  overflow: auto;
+}
+/* .horizontalScroll::-webkit-scrollbar
+{
+  height: 2px;
+  
+} */
+/* hiding arrows of input box  */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.totalinputvalue > input[type="text"] {
+  font-weight: 700;
+  color: #1a6bb4;
+}
+.totalinputvalue .ant-input-prefix {
+  font-weight: 700;
+  color: #1a6bb4;
+}
+.inputBox .ant-input-prefix {
+  font-weight: 700;
+}
+.inputBox input[type="text"] {
+  font-weight: 700;
+}
+.inputBox .ant-input {
+  font-weight: 700;
+}
+.ant-input-affix-wrapper .ant-input-prefix {
+  left: 9px;
+}
